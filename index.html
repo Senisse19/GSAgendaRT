@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Infográfico - Performance Agenda RT</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.4.1/papaparse.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf-autotable/3.8.2/jspdf.plugin.autotable.min.js"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@700&family=Lato:wght@400;700&family=Montserrat:wght@700&display=swap');
+        
+        /* Font Mapping:
+           - Trajan Pro (Title) -> Cinzel
+           - Montserrat (Subtitles) -> Montserrat
+           - Gotham (Text) -> Lato
+        */
+
+        body {
+            font-family: 'Lato', sans-serif;
+            background-color: #1E1E1E;
+        }
+
+        /* Title: GRUPO STUDIO */
+        h1 {
+            font-family: 'Cinzel', serif;
+            font-weight: 700;
+        }
+
+        /* Subtitles: Chart titles, card titles, table headers */
+        h2, h3, th {
+            font-family: 'Montserrat', sans-serif;
+            font-weight: 700;
+        }
+    </style>
+<script type="importmap">
+{
+  "imports": {
+    "react-dom/": "https://aistudiocdn.com/react-dom@^19.2.0/",
+    "react/": "https://aistudiocdn.com/react@^19.2.0/",
+    "react": "https://aistudiocdn.com/react@^19.2.0",
+    "chart.js": "https://aistudiocdn.com/chart.js@^4.5.1",
+    "papaparse": "https://aistudiocdn.com/papaparse@^5.5.3",
+    "chart.js/": "https://aistudiocdn.com/chart.js@^4.5.1/"
+  }
+}
+</script>
+<link rel="stylesheet" href="/index.css">
+</head>
+<body class="bg-[#1E1E1E] text-gray-300">
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div id="root"></div>
+    <script type="module" src="/index.js"></script>
+<script type="module" src="/index.tsx"></script>
+</body>
+</html>
