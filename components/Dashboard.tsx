@@ -259,7 +259,7 @@ const Dashboard: React.FC = () => {
             />
             <main id="dashboard-to-export" className="mt-8 space-y-6">
                 <section className="grid grid-cols-1 gap-6 md:grid-cols-3 lg:grid-cols-6">
-                    <StatCard title="TOTAL DE HONORÁRIOS" value={formatCurrency(totalHonorarios)} />
+                    <StatCard title="TOTAL DE HONORÁRIO" value={formatCurrency(totalHonorarios)} />
                     <StatCard title="TOTAL DE CRÉDITOS" value={formatCurrency(totalCreditos)} />
                     <StatCard title="RESTITUIÇÃO" value={formatCurrency(totalRestituicao)} />
                     <StatCard title="COMPENSAÇÃO" value={formatCurrency(totalCompensacao)} />
